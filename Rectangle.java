@@ -1,7 +1,7 @@
 public class Rectangle implements IShape {
     double length, width;
     String color;
-    Render renderer;
+    Render renderer = new Render();
 
     public Rectangle(String color, int length, int width) {
         this.color = color;
